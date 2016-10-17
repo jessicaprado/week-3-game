@@ -5,11 +5,11 @@
 <head>
 
     <title>Hangman!</title>
-
+    
 </head>
 
 <body>
-
+<script src="assets/javascript/game.js"></script>
     <h1>Hangman!</h1>
 
     <div id="game">
@@ -19,28 +19,30 @@
     <script>
 
 
-function getWord() {
-    var words = ["javascript", "unicorn", "amazing", "hangman"];
-	var index = Math.floor(Math.random() * words.length);
-	return words[index];
-}
+//function getWord() {
+    //var words = ["javascript", "unicorn", "amazing", "hangman"];
+	//var index = Math.floor(Math.random() * words.length);
+	//return words[index];
+//}
 // Set up the answer array
-    var words = ["javascript", "unicorn", "amazing", "hangman"];
-    var wins = 0
-    var answerArray = [];
-    for (var i = 0; i < words.length; i++) {
-      console.log(answerArray[i] = "_");
-    }
+    //var words = ["javascript", "unicorn", "amazing", "hangman"];
+   // var wins = 0;
+   // var lives = 7;
+   // var guesses = 0;
+   // var answerArray = [];
+    //for (var i = 0; i < words.length; i++) {
+    //  console.log(answerArray[i] = "_");
+   // }
 
-    var remainingLetters = words.length;
+    //var remainingLetters = words.length;
 
-   	var html = "Press any key to get started" 
-   	+ "<p> Wins: " + wins 
-   	+ "<p> Current Word" 
-   	+ "<p> Number of Guesses Remaining: " + remainingLetters
-   	+ "<p>Letters Al ready Guessed "
+   //	var html = "Press any key to get started" 
+   	//+ "<p> Wins: " + wins 
+   //	+ "<p> Current Word" 
+   //	+ "<p> Number of Guesses Remaining: " + remainingLetters
+   //	+ "<p>Letters Al ready Guessed "
 
-	document.querySelector("#game").innerHTML = html;
+	//document.querySelector("#game").innerHTML = html;
 
 
     </script>
